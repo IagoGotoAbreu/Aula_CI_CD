@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "exercicio-teste-unitarios",
-    "slug": "exercicio-teste-unitarios",
+    "slug": "iagoabreucicd",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,22 +13,28 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.igoto.exerciciotesteunitarios",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.igoto.exerciciotesteunitarios"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "6504e46e-0126-4820-afc6-963c5088671d"
+        "projectId": "53dd5b4e-dc32-4942-b211-b63915ad227e"
       }
-    }
+    },
+    "owner": "igoto"
   }
 }
